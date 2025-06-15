@@ -30,3 +30,15 @@ body{
     background-color: var(--darkblue);
 
 }
+
+@media (min-width: 768px) {
+        .card-md-color {
+        background-color: var(--darkblue);
+  }
+    }
+
+    @media (max-width: 768px) {
+        .card-md-color {
+        background-color: transparent;
+  }
+    }
