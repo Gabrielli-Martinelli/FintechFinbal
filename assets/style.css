@@ -1,0 +1,88 @@
+body{
+    background-color: var(--bgblue);
+}
+
+:root{
+    --bgblue: #152554;
+    --darkblue: #203573;
+    /* lightblue1 e uma cor proxima ao primary */
+    --lightblue1: #4167D9; 
+    --lightblue2: #3663BF;
+    --black: #141C26;
+    --white: #F2F2F2;
+}
+.paddingmain{
+    padding-bottom: 100px;
+}
+#botao_mes {
+  border: 1px solid var(--white);
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 3rem;
+  background-color: transparent;
+  color: var(--white);
+}
+
+.wbutton {
+    width: 50px;
+    height: 50px;
+}
+
+.meucard {
+    background-color: var(--darkblue);
+
+}
+.bg-categ{
+    background-color: var(--lightblue1);
+}
+.m-vazio{
+    min-width: 68px;
+}
+
+.btn-principal{
+    width: 64px;
+    height: 64px;
+    background-color: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.565);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightblue1);
+    z-index: 10; /* Pra garantir que fique acima dos outros elementos */
+}
+@media (min-width: 768px) {
+        .card-color {
+        background-color: var(--darkblue);
+  }
+    
+    .nav-color {
+        background-color: var(--darkblue);
+  }
+}
+
+    @media (max-width: 768px) {
+        .card-color {
+        background-color: transparent;
+  }
+
+        .nav-color {
+        background-color: var(--lightblue1)
+  }
+    }
+
+.categorias-scroll {
+  padding-bottom: 15px; /* Espaco entre o conteudo e a barra */
+}
+.categorias-scroll::-webkit-scrollbar {
+  height: 6px; /* Altura da barra horizontal */
+}
+
+.categorias-scroll::-webkit-scrollbar-track {
+  background: transparent; /* Fundo invisível ou uma cor bem leve */
+}
+
+.categorias-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--white); 
+  border-radius: 10px;
+}
