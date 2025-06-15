@@ -1,0 +1,13 @@
+body{
+    background-color: var(--bgblue);
+}
+
+:root{
+    --bgblue: #152554;
+    --darkblue: #203573;
+    /* lightblue1 e uma cor proxima ao primary */
+    --lightblue1: #4167D9; 
+    --lightblue2: #3663BF;
+    --black: #141C26;
+    --white: #F2F2F2;
+}
